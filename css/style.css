@@ -27,8 +27,19 @@ header h1 {
   top: 35vh;
   color: white;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
+}
+
+.box h2 {
+  font-size: 26px;
+}
+
+.box h3, .box h2 {
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .buttons {

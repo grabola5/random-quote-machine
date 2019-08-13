@@ -24,8 +24,18 @@ header {
 	top: 35vh;
 	color: white;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
-	justify-content: center;
+	/*justify-content: center;*/
+	h2 {
+		@extend h3;
+		font-size: 26px;
+	}
+	h3 {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
 }
 .buttons {
 	text-align: center;
